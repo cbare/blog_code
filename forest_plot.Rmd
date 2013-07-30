@@ -5,6 +5,7 @@ A friend asked me to help with a forest plot recently. After chatting about what
 
 ```{r results='hide', tidy=F, echo=FALSE}
 library(ggplot2)
+library(grid)
 library(gridExtra)
 
 dat <- data.frame(group = factor(c("A","B","C","D","E","F","G"), levels=c("F","E","D","C","B","A","G")),
